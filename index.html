@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fan Home • Privacy Policy</title>
+  <link rel="icon" type="image/png" href="./logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary:   '#0C697A',
+            secondary1:'#147182',
+            secondary2:'#217889',
+            secondary3:'#2D7E8F',
+            secondary4:'#378693',
+            accent:    '#FFD464'
+          },
+          dropShadow: {
+            'brand': ['2px 2px 0 rgba(255,212,100,0.8)']
+          },
+          fontFamily: {
+            sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
+            serif:['Playfair Display','ui-serif','Georgia']
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .brand-underline {
+      position: relative;
+      display: inline-block;
+    }
+    .brand-underline::after {
+      content: '';
+      position: absolute;
+      left: 0; bottom: -8px;
+      height: 4px; width: 100%;
+      background: #FFD464;
+      transform: skewX(-12deg);
+    }
+    .prose-list li::marker{ color:#FFD464; }
+  </style>
+</head>
+<body class="bg-primary text-white font-sans antialiased">
+  <!-- Header -->
+  <header class="relative border-b border-white/10">
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute -top-12 -left-12 w-56 h-56 bg-accent/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-12 -right-12 w-56 h-56 bg-accent/10 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-4 group">
+        <img src="./logo.png" alt="Fan Home Logo" class="h-24 w-auto object-contain drop-shadow-lg">
+        <div class="leading-tight">
+          <div class="text-2xl md:text-3xl font-serif tracking-wide group-hover:text-accent transition-colors">
+            Fan Home
+          </div>
+          <div class="text-white/70 text-sm">Music &amp; Arts Academy</div>
+        </div>
+      </a>
+
+      <a href="#contact" class="hidden sm:inline-flex items-center gap-2 bg-accent text-black font-semibold px-4 py-2 rounded-full shadow-lg hover:scale-[1.03] active:scale-[0.99] transition">
+        Contact Us
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden mb-16">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary to-secondary2"></div>
+    <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-accent/10 rounded-full blur-3xl"></div>
+    <div class="absolute -top-24 -right-24 w-80 h-80 bg-accent/10 rounded-full blur-3xl"></div>
+
+    <div class="relative max-w-4xl mx-auto px-6 py-16 text-center">
+  <h1 class="text-4xl md:text-6xl font-sans drop-shadow-brand mb-4">
+        Privacy Policy
+      </h1>
+      <p class="text-white/85 md:text-lg">
+        How Fan Home collects, uses, and protects your information when you use our mobile application.
+      </p>
+      <p class="mt-4 text-sm text-white/60">
+        Last updated: <span class="font-medium text-white">September 30, 2025</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="relative z-10">
+    <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-[280px,1fr] gap-8 lg:gap-12 -mt-10">
+      <!-- TOC -->
+      <aside class="bg-secondary3/50 backdrop-blur-sm border border-accent/30 rounded-2xl p-5 h-max sticky top-6">
+  <h2 class="font-sans text-xl mb-4 brand-underline">Contents</h2>
+        <nav class="space-y-2 text-sm">
+          <a href="#section1" class="block hover:text-accent">1. Information We Collect</a>
+          <a href="#section2" class="block hover:text-accent">2. How We Use Information</a>
+          <a href="#section3" class="block hover:text-accent">3. Sharing of Information</a>
+          <a href="#section4" class="block hover:text-accent">4. Data Retention</a>
+          <a href="#section5" class="block hover:text-accent">5. Security</a>
+          <a href="#section6" class="block hover:text-accent">6. Children’s Privacy</a>
+          <a href="#section7" class="block hover:text-accent">7. Your Rights</a>
+          <a href="#section8" class="block hover:text-accent">8. Changes to This Policy</a>
+          <a href="#section9" class="block hover:text-accent">9. Contact Us</a>
+        </nav>
+      </aside>
+
+      <!-- Policy Card -->
+      <section class="bg-secondary4/60 backdrop-blur-sm border border-accent/30 rounded-3xl p-6 md:p-10 shadow-2xl">
+        <!-- Intro -->
+        <div class="mb-10">
+          <p class="text-white/90 leading-relaxed">
+            Fan Home (“we,” “our,” or “us”) respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application (“App”).
+          </p>
+        </div>
+
+        <!-- 1 -->
+        <article id="section1" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">1. Information We Collect</h3>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-secondary1/70 rounded-2xl p-5 border border-accent/20">
+              <div class="flex items-center gap-3 mb-3">
+                <div class="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
+                  </svg>
+                </div>
+                <h4 class="text-lg font-semibold">Information you provide to us</h4>
+              </div>
+              <ul class="list-disc pl-6 space-y-1 text-white/90 prose-list">
+                <li>Name</li>
+                <li>Email address</li>
+                <li>Account details provided when signing up</li>
+                <li>Phone number</li>
+                <li>Other information you may choose to provide</li>
+              </ul>
+            </div>
+
+            <div class="bg-secondary1/70 rounded-2xl p-5 border border-accent/20">
+              <div class="flex items-center gap-3 mb-3">
+                <div class="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                  </svg>
+                </div>
+                <h4 class="text-lg font-semibold">Information collected automatically</h4>
+              </div>
+              <ul class="list-disc pl-6 space-y-1 text-white/90 prose-list">
+                <li>Push notification tokens</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-6 bg-secondary1/70 rounded-2xl p-5 border border-accent/20">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2a5 5 0 015 5v1h1a4 4 0 110 8h-1v1a5 5 0 11-10 0v-1H6a4 4 0 110-8h1V7a5 5 0 015-5z"/>
+                </svg>
+              </div>
+              <h4 class="text-lg font-semibold">Third-party services</h4>
+            </div>
+            <p class="text-white/90">
+              We use Google services, including Firebase (for authentication and push notifications), which may collect information as described in their own policies.
+            </p>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article id="section2" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">2. How We Use Information</h3>
+          <ul class="grid sm:grid-cols-2 gap-3 list-none">
+            <li class="bg-secondary2/70 rounded-xl p-4 border border-accent/20">Create and manage your account</li>
+            <li class="bg-secondary2/70 rounded-xl p-4 border border-accent/20">Provide and improve App features</li>
+            <li class="bg-secondary2/70 rounded-xl p-4 border border-accent/20">Send push notifications and updates</li>
+            <li class="bg-secondary2/70 rounded-xl p-4 border border-accent/20">Respond to support requests</li>
+          </ul>
+        </article>
+
+        <!-- 3 -->
+        <article id="section3" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">3. Sharing of Information</h3>
+          <div class="space-y-4">
+            <p class="text-white/90">We do not sell your personal information.</p>
+            <div class="bg-secondary1/70 rounded-2xl p-5 border border-accent/20">
+              <h4 class="text-lg font-semibold mb-2">We may share information with:</h4>
+              <ul class="list-disc pl-6 space-y-1 text-white/90 prose-list">
+                <li>Service providers (e.g., Firebase by Google) to operate the App</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article id="section4" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">4. Data Retention</h3>
+          <p class="text-white/90">
+            We keep your information as long as your account is active or as needed to provide the App. You can request deletion of your data at any time (see <a href="#section9" class="text-accent underline-offset-4 underline hover:no-underline">Contact</a>).
+          </p>
+        </article>
+
+        <!-- 5 -->
+        <article id="section5" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">5. Security</h3>
+          <p class="text-white/90">
+            We use reasonable measures to protect your data. However, no method of transmission over the Internet is completely secure.
+          </p>
+        </article>
+
+        <!-- 6 -->
+        <article id="section6" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">6. Children’s Privacy</h3>
+          <p class="text-white/90">
+            Although our App is intended for use by parents of children (including those under 13), the App itself is not directed to children under 13 and children are not permitted to create accounts or use the App directly.
+          </p>
+          <p class="text-white/90 mt-3">
+            We do not knowingly collect personal information directly from children. If we discover that a child under 13 has provided personal information to us, we will delete it promptly.
+          </p>
+        </article>
+
+        <!-- 7 -->
+        <article id="section7" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">7. Your Rights</h3>
+          <ul class="list-disc pl-6 space-y-1 text-white/90 prose-list">
+            <li>Access, update, or delete your information</li>
+            <li>Contact us to request data deletion</li>
+          </ul>
+        </article>
+
+        <!-- 8 -->
+        <article id="section8" class="mb-10 scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">8. Changes to This Policy</h3>
+          <p class="text-white/90">
+            We may update this Privacy Policy from time to time. We will post the new version with a new “Last updated” date.
+          </p>
+        </article>
+
+        <!-- 9 -->
+        <article id="section9" class="scroll-mt-24">
+          <h3 class="text-2xl md:text-3xl font-sans mb-4 brand-underline">9. Contact Us</h3>
+          <div id="contact" class="flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-secondary3/60 border border-accent/30 rounded-2xl p-5">
+            <div class="w-12 h-12 rounded-full bg-accent flex items-center justify-center shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4a2 2 0 00-2 2v1l10 6 10-6V6a2 2 0 00-2-2z"/><path d="M22 8l-10 6L2 8v10a2 2 0 002 2h16a2 2 0 002-2V8z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="text-white/80 text-sm">Questions about this policy?</p>
+              <a href="mailto:nazekkourjieh@gmail.com" class="text-black bg-accent inline-block mt-1 px-3 py-1.5 rounded-full font-semibold hover:brightness-95 transition">
+                📧 nazekkourjieh@gmail.com
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Footer CTA -->
+        <div class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-accent/20 pt-6">
+          <a href="#" class="inline-flex items-center gap-2 bg-accent text-black font-semibold px-5 py-3 rounded-full shadow-lg hover:scale-[1.02] transition">
+            Back to Top
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/>
+            </svg>
+          </a>
+          <div class="text-white/60 text-sm">
+            &copy; 2025 Fan Home Music &amp; Arts Academy. All rights reserved.
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Bottom Brand Bar -->
+  <footer class="mt-12">
+    <div class="bg-secondary1/90 backdrop-blur-sm border-t border-accent/20">
+      <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="./logo.png" alt="Fan Home Logo" class="h-32 w-auto object-contain">
+          <span class="text-white/80 text-sm">Privacy matters to us.</span>
+        </div>
+        <a href="mailto:nazekkourjieh@gmail.com" class="text-black bg-accent px-4 py-2 rounded-full font-semibold hover:brightness-95 transition">
+          Email Support
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
